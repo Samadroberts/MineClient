@@ -6,9 +6,13 @@ import java.awt.*;
  * Created by Sam Roberts on 3/25/2016.
  */
 public enum Colors {
-    //IRON(13,70,3,37,3,25),
     IRON(55,59,28,31,19,21),
-    INVENTORY_BORDER(0,0,0,0,1,1);
+    SWORD(190,190,258,258,230,230),
+    RED_BAR_GRAPH(169,169,55,55,52,52),
+    GREEN_BAR_GRAPH(47,47,115,115,51,51),
+    FEATHERS(0,0,20,21,0,0),
+    CHICKEN_LIGHT(108,152,91,129,64,91)
+    ;
 
 
     private int red_min;
